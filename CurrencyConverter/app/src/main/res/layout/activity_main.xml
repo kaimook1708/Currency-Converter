@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffacd"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Currency Converter App"
+        android:textColor="#ff6c00"
+        android:textFontWeight="700"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/Ip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:hint="Input the USD."
+        android:textColor="#DE0740"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/Us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USD"
+        android:textSize="24dp"
+        android:textColor="#ff6c00"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/Th"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THB"
+        android:textSize="24dp"
+        android:textColor="#ff6c00"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left"
+        android:gravity="left"/>
+    <Button
+        android:id="@+id/Bt"
+        android:layout_width="328dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#ff6c00"
+        android:gravity="center"
+        android:text="Coverter"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:gravity="bottom"
+        android:text="Kaimook wongsubin 621310422"
+        android:textColor="#ff6c00"
+        android:textFontWeight="700"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
